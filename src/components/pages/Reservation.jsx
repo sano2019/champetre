@@ -1,7 +1,11 @@
 import React from 'react';
 
-class Reservation () => {
+const Reservation = () => {
+  return (
+    <div>
+      <h1>This is the reservation page</h1>
+    </div>
+  );
+};
 
-}
-
-export default Reservation
+export default Reservation;

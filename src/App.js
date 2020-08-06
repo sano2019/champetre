@@ -19,6 +19,7 @@ function App() {
             <Route exact path='/reservation' component={Reservation} />
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );

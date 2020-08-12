@@ -1,18 +1,27 @@
 import React from 'react';
 import Iframe from 'react-iframe';
+import MyFancyComponent from '../map/MyMap';
 
 const Reservation = () => {
   return (
     <div>
-      <h1>This is the reservation page</h1>
-      <Iframe
-        url='https://module.lafourchette.com/fr_FR/module/576335-25dc1'
-        width='100%'
-        height='800px'
-        position='relative'
-        display='flex'
-        color='black'
-      ></Iframe>
+      <div className='top-text'>
+        <h2>Réservation</h2>
+      </div>
+      <div className='reservation-flex'>
+        <iframe
+          class='thefork'
+          src='https://module.lafourchette.com/en_GB/module/576335-25dc1'
+        ></iframe>
+        <MyFancyComponent />
+      </div>
+      <div className='top-text' ç>
+        <h2>Lieu et horaires</h2>
+        <p>75015 Paris, France</p>
+        <p>Ouvert du lundi au dimanche</p>
+        <p>Déjeuner : 12 h - 14 h 30</p>
+        <p>Diner : 18 h - 23 h</p>
+      </div>
     </div>
   );
 };

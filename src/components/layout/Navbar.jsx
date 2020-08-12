@@ -5,16 +5,21 @@ import { FaInstagram } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <p>107 rue Saint Charles 75015 Paris, France</p>
-      <a
-        href='https://www.instagram.com/champetre_bbq_coreen/'
-        className='navsocial'
-      >
-        <FaInstagram />
-      </a>
+      <div className='address-container'>
+        <div className='address'>
+          <p>107 rue Saint Charles</p>
+          <p>75015 Paris, France</p>
+        </div>
+        <a
+          href='https://www.instagram.com/champetre_bbq_coreen/'
+          className='navsocial'
+        >
+          <FaInstagram />
+        </a>
+      </div>
       <h1>Champetre BBQ King</h1>
-      <hr></hr>
       <div className='navlinks'>
+        <hr></hr>
         <ul>
           <li>
             <Link to='/'>Accueil</Link>
@@ -23,9 +28,10 @@ const Navbar = () => {
             <Link to='/Menu'>Menu</Link>
           </li>
           <li>
-            <Link to='/Reservation'>Reservation</Link>
+            <Link to='/Reservation'>Réservation</Link>
           </li>
         </ul>
+        <hr></hr>
       </div>
     </div>
   );

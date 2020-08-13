@@ -1,5 +1,4 @@
 import React from 'react';
-import Iframe from 'react-iframe';
 import MyFancyComponent from '../map/MyMap';
 
 const Reservation = () => {
@@ -10,6 +9,7 @@ const Reservation = () => {
       </div>
       <div className='reservation-flex'>
         <iframe
+          title='thefork'
           class='thefork'
           src='https://module.lafourchette.com/en_GB/module/576335-25dc1'
         ></iframe>

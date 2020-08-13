@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaSeedling, FaPepperHot } from 'react-icons/fa';
 import { GiGrain, GiFruitTree, GiHighGrass } from 'react-icons/gi';
+import PropTypes from 'prop-types';
 
 const getIcon = (el) => {
   switch (el) {
@@ -24,10 +25,17 @@ const MenuItem = (props) => {
     <div className='menu-card'>
       <h4>{props.name}</h4>
       <p>{props.description}</p>
-      <h4>{props.price}</h4>
+      <h4>€ {props.price}</h4>
       <p className='allergens'>{props.allergens.map((a) => getIcon(a))}</p>
     </div>
   );
+};
+
+MenuItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  allergens: PropTypes.array.isRequired,
 };
 
 export default MenuItem;

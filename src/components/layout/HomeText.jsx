@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const HomeText = (props) => {
   return (
@@ -8,6 +9,12 @@ const HomeText = (props) => {
       <p>{props.content}</p>
     </div>
   );
+};
+
+HomeText.propTypes = {
+  topnote: PropTypes.string,
+  title: PropTypes.string,
+  content: PropTypes.string,
 };
 
 export default HomeText;

@@ -4,7 +4,7 @@ const Entrees = [
     name: 'Salade de tomates',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€9',
+    price: '9',
     allergens: [''],
   },
   {
@@ -12,7 +12,7 @@ const Entrees = [
     name: 'Salade verte composée',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€9',
+    price: '9',
     allergens: ['vg', 'v', 'o'],
   },
   {
@@ -20,7 +20,7 @@ const Entrees = [
     name: 'Salade César au choux kale',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€9,50',
+    price: '9,50',
     allergens: [''],
   },
   {
@@ -28,7 +28,7 @@ const Entrees = [
     name: 'Chou-fleur grillé',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€7',
+    price: '7',
     allergens: ['vg', 'v', 'o'],
   },
   {
@@ -36,7 +36,7 @@ const Entrees = [
     name: 'Fromage de chèvre aux asperges',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€10,50',
+    price: '10,50',
     allergens: [''],
   },
   {
@@ -44,7 +44,7 @@ const Entrees = [
     name: 'Hummus et tehina',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€12',
+    price: '12',
     allergens: [''],
   },
 ];
@@ -55,7 +55,7 @@ const MainCourses = [
     name: 'Tortilla au maïs et aux légumes sucrés',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€12',
+    price: '12',
     allergens: [''],
   },
   {
@@ -63,7 +63,7 @@ const MainCourses = [
     name: 'Riz sauvage au broccoli',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€17,95',
+    price: '17,95',
     allergens: [''],
   },
   {
@@ -71,7 +71,7 @@ const MainCourses = [
     name: 'Quinoa aux champignons',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€22,50',
+    price: '22,50',
     allergens: [''],
   },
   {
@@ -79,7 +79,7 @@ const MainCourses = [
     name: 'Pad Thai au tofu',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€18,50',
+    price: '18,50',
     allergens: [''],
   },
   {
@@ -87,7 +87,7 @@ const MainCourses = [
     name: 'Lasagnes végétariennes',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€16,95',
+    price: '16,95',
     allergens: [''],
   },
   {
@@ -95,7 +95,7 @@ const MainCourses = [
     name: 'Pousses de légumes épicées et grillées',
     description:
       'Ceci est un élément de votre menu. Ajoutez une courte description.',
-    price: '€26,75',
+    price: '26,75',
     allergens: ['s', 'o', 'gf'],
   },
 ];

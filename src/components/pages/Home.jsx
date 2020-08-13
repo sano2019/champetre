@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react';
 import HomeText from '../layout/HomeText';
+import Parallax from '../layout/Parallax';
 
 const Home = () => {
   return (
     <Fragment>
+      <Parallax image='https://images.unsplash.com/photo-1588347818036-558601350947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80' />
       <div className='homepage'>
         <div className='grid'>
           <HomeText

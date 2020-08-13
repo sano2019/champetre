@@ -3,10 +3,12 @@ import MenuItem from '../menu/MenuItem';
 import { Entrees, MainCourses, Deserts } from '../menu/MenuList';
 import { FaSeedling, FaPepperHot } from 'react-icons/fa';
 import { GiGrain, GiFruitTree, GiHighGrass } from 'react-icons/gi';
+import Parallax from '../layout/Parallax';
 
 const Menu = () => {
   return (
     <div>
+      <Parallax image='https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80' />
       <div className='menu-list'>
         <div className='menu-intro'>
           <h2>Menu</h2>

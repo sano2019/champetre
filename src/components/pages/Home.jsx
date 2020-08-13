@@ -51,6 +51,7 @@ const Home = () => {
           title='« Je suis un témoignage. Cliquez ici pour me modifier et valoriser votre activité. »'
         />
       </div>
+      <Parallax image='https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' />
     </Fragment>
   );
 };
